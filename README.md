@@ -3,4 +3,5 @@ Enhanced aproach of Simple Builder Pattern based on the following scenario: "Bui
 Major Changes:
 -HtmlElement: First, constructors were changed to internal to be accessible only with its own.
 Then, 'FactoryMethod' implemented to create a Builder right out of the HtmlElement, being static.
+
 -HtmlBuilder: Implementation of implicit operator, and 'Build' method.
